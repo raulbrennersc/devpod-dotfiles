@@ -6,7 +6,7 @@ curl -o "$HOME/.zshrc" https://raw.githubusercontent.com/raulbrennersc/dotfiles/
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-brew install fzf ripgrep neovim
+brew install fzf ripgrep neovim tmux
 
 git clone https://github.com/NvChad/starter ~/.config/nvchad
 git clone https://github.com/LazyVim/starter ~/.config/lazyvim
