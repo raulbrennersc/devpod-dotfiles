@@ -3,7 +3,8 @@ export XDG_CONFIG_HOME="$HOME"/.config
 
 curl -o "$HOME/.zshrc" https://raw.githubusercontent.com/raulbrennersc/dotfiles/main/.zshrc
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 brew install fzf ripgrep neovim
 
