@@ -11,6 +11,6 @@ brew install fzf ripgrep neovim tmux
 git clone https://github.com/NvChad/starter ~/.config/nvchad
 git clone https://github.com/LazyVim/starter ~/.config/lazyvim
 
-#curl -s https://ohmyposh.dev/install.sh | bash -s
+curl -s https://ohmyposh.dev/install.sh | bash -s
 
 
