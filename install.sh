@@ -8,8 +8,8 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 brew install fzf ripgrep neovim
 
-git clone --depth 1 https://github.com/NvChad/NvChad ~/.config/nvchad
-git clone --depth 1 https://github.com/LazyVim/starter ~/.config/lazyvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvchad
+git clone https://github.com/LazyVim/starter ~/.config/lazyvim
 
 curl -s https://ohmyposh.dev/install.sh | bash -s
 
