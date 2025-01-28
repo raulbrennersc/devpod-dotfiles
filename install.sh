@@ -6,11 +6,6 @@ curl -o "$HOME/.gitconfig" https://raw.githubusercontent.com/raulbrennersc/dotfi
 
 cp "$PWD/.tmux.conf" "$HOME"/.tmux.conf
 
-sudo apt update
-sudo apt install iputils-ping
-
-NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install fzf ripgrep neovim tmux oh-my-posh
 
 git clone https://github.com/NvChad/starter ~/.config/nvchad
