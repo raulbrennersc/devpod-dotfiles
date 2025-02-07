@@ -6,6 +6,7 @@ curl -o "$HOME/.gitconfig" https://raw.githubusercontent.com/raulbrennersc/dotfi
 
 cp "$PWD/.tmux.conf" "$HOME"/.tmux.conf
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install fzf ripgrep neovim tmux oh-my-posh
 
 git clone https://github.com/NvChad/starter ~/.config/nvchad
